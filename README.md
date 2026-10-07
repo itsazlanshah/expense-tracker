@@ -73,8 +73,8 @@ flutter run
 
 ## Project Team
 
--**Azlan Shah**
--**Muhammad Nofal Zia**
+**Azlan Shah**  
+**Muhammad Nofal Zia**
 
 This project was developed collaboratively as part of a Mobile App Development course at Bahria University.
 
