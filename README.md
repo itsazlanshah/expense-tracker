@@ -1,43 +1,83 @@
-# Flutter Expense Tracking Semester Project
+# Flutter Expense Tracker
 
-**Live demo:** Not deployed yet
+A cross-platform expense tracking application developed as a university Mobile App Development project using Flutter and Firebase.
 
-## What it does
-A comprehensive mobile and web application designed to help users manage their personal finances with ease. It allows users to track income and expenses, visualize spending patterns through interactive charts, and securely store data in the cloud using Firebase.
+**Live Demo:** Not deployed yet
 
-## Tech stack
-- **Frontend:** Flutter (Dart)
-- **Backend/Database:** Cloud Firestore
-- **Authentication:** Firebase Auth
-- **State Management:** Provider
-- **Data Visualization:** fl_chart & syncfusion_flutter_charts
-- **UI Components:** Shimmer, Google Fonts (Inter), Font Awesome Icons
+## Overview
 
-## Key features
-- **Real-time CRUD Operations:** Create, read, update, and delete transactions with instant synchronization across devices via Firestore.
-- **Dynamic Analytics Dashboard:** Visualizes financial data using Pie and Line charts to help users identify spending trends and categories.
-- **Secure User Authentication:** Full login and registration flow to keep personal financial data private and persistent.
-- **Modern UI/UX Design:** Features a polished, user-friendly interface with smooth transitions, custom themes, and shimmer loading effects.
-- **Cross-Platform Support:** Built to run seamlessly on both mobile (Android/iOS) and Web platforms.
+The Expense Tracker helps users manage their personal finances by recording income and expenses, viewing spending patterns, and analyzing financial activity through interactive charts.
 
-## Getting started
+The application uses Firebase for authentication and cloud data storage, allowing users to securely manage their financial records.
 
-1.  **Clone the Repository:**
-    ```bash
-    git clone https://github.com/[your-username]/expense-tracker.git
-    ```
-2.  **Install Dependencies:**
-    ```bash
-    flutter pub get
-    ```
-3.  **Firebase Configuration:**
-    *   Place your `google-services.json` in `android/app/`.
-    *   Place your `GoogleService-Info.plist` in `ios/Runner/`.
-    *   Ensure a valid `firebase_options.dart` is present in the `lib/` folder if running on Web.
-4.  **Run the Application:**
-    ```bash
-    flutter run
-    ```
+## Features
 
-## Why I built this
-This project was originally developed for a Mobile App Development course at university, but I chose to push the boundaries of the assignment by implementing a full-scale production-ready architecture with Firebase integration and high-end UI/UX features to create a truly ambitious financial tool.
+* **User Authentication:** Secure registration and login using Firebase Authentication.
+* **Expense Management:** Create, view, update, and delete income and expense records.
+* **Cloud Database:** Stores financial data using Cloud Firestore.
+* **Analytics Dashboard:** Displays financial information through interactive charts.
+* **Spending Categories:** Organizes expenses into different categories for easier analysis.
+* **State Management:** Uses Provider for managing application state.
+* **Responsive UI:** Designed to work across mobile and web platforms.
+* **Loading Effects:** Uses shimmer effects to improve the user experience.
+
+## Technologies Used
+
+* **Flutter & Dart** — Application development
+* **Firebase Authentication** — User authentication
+* **Cloud Firestore** — Cloud database
+* **Provider** — State management
+* **fl_chart** — Data visualization
+* **Syncfusion Flutter Charts** — Financial charts
+* **Google Fonts** — Typography
+* **Font Awesome** — Icons
+
+## How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/itsazlanshah/expense-tracker.git
+cd expense-tracker
+```
+
+### 2. Install dependencies
+
+```bash
+flutter pub get
+```
+
+### 3. Configure Firebase
+
+Configure Firebase for your platform and add the required Firebase configuration files.
+
+For Android:
+
+```text
+android/app/google-services.json
+```
+
+For iOS:
+
+```text
+ios/Runner/GoogleService-Info.plist
+```
+
+For Web, ensure the appropriate Firebase configuration is available in the project.
+
+### 4. Run the application
+
+```bash
+flutter run
+```
+
+## Project Team
+
+**Azlan Shah**
+**Muhammad Nofal Zia**
+
+This project was developed collaboratively as part of a Mobile App Development course at Bahria University.
+
+## Purpose
+
+The project was developed to gain practical experience in Flutter application development, Firebase integration, authentication, CRUD operations, state management, and data visualization while building a practical financial management application.
